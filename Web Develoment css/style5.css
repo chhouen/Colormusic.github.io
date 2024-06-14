@@ -1,0 +1,136 @@
+.box{
+    width: 500px;
+    height: 285px;
+    background-color: red;
+    margin: auto ;
+    margin-top: 100px;
+
+}
+.box1{
+    width: 480px;
+    height: 30px;
+    background-color: cornflowerblue;
+    float: left;
+    margin-top: 5px;
+    padding: 5px;
+    margin-inline: 5px;
+}
+.box2{
+    width: 250px;
+    height: 220px;
+    background-color: rgb(5, 238, 16);
+    float: left;
+    margin-top: 40px;
+    padding: 5px;
+    margin-inline: -5px;
+}
+.box3{
+    width: 230px;
+    height: 50px;
+    background-color: rgb(245, 5, 5);
+    float: left;
+    padding: 10px;
+}
+.box4{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(146, 106, 212);
+    float: left;
+    margin-top: -5px;
+    margin-inline: -5px;
+    
+}
+.box5{
+    width: 165px;
+    height: 50px;
+    background-color: rgb(181, 132, 245);
+    float: left;
+    padding: 5px;
+    margin-inline: 65px;
+}
+.box6{
+    width: 230px;
+    height: 50px;
+    background-color: rgb(245, 5, 5);
+    float: left;
+    padding: 10px;
+    margin-inline: -75px;
+    margin-top: 65px; 
+   
+}
+.box7{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(146, 106, 212);
+    float: left;
+    margin-top: -5px;
+    margin-inline: -5px;
+}
+.box8{
+    width: 165px;
+    height: 50px;
+    background-color: rgb(181, 132, 245);
+    float: left;
+    padding: 5px;
+    margin-inline: 65px;
+}
+.box9{
+    width: 230px;
+    height: 50px;
+    background-color: rgb(245, 5, 5);
+    float: left;
+    padding: 10px;
+    margin-top: 65px;
+    margin-inline: -75px;
+}
+.box10{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(146, 106, 212);
+    float: left;
+    margin-top: -5px;
+    margin-inline: -5px;
+}
+.box11{
+    width: 165px;
+    height: 50px;
+    background-color: rgb(181, 132, 245);
+    float: left;
+    padding: 5px;
+    margin-inline: 65px;
+}
+.box12{
+    width: 165px;
+    height: 190px;
+    background-color: rgb(241, 234, 41);
+    float: left;
+   margin-inline: 210px;
+    padding: 5px;
+   margin-top: -150px;
+}
+.box13{
+    width: 155px;
+    height: 50px;
+    background-color: rgb(28, 17, 178);
+    float: left;
+    padding: 5px;
+}
+.box14{
+    width: 155px;
+    height: 50px;
+    background-color: rgb(28, 17, 178);
+    float: left;
+    padding: 5px;
+    margin-top: 60px;
+    margin-inline: -5px;
+}
+.box15{
+    width: 155px;
+    height: 50px;
+    background-color: rgb(28, 17, 178);
+    float: left;
+    padding: 5px;
+    margin-top: 60px;
+    margin-inline: -5px;
+    
+}

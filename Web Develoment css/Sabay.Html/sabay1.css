@@ -1,0 +1,201 @@
+body{
+    background-color: white;
+}
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.me{
+    width: 900px;
+    height: 100px;
+    /*background-color: blue;*/
+    
+    margin-left: 80px;
+}
+.box .me img{
+    height: 90px;
+    width: 100px;
+    margin-top: 3px;
+}
+.box1{
+    width: 100%;
+    height: 50px;
+    background-color: crimson;
+
+}
+.box1 .fon ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+}
+.box1 .fon ul p {
+        float: left;
+}
+.box1 .fon ul p a{
+    display: block;
+    
+    color: white;
+    font-style: 10px;
+    font-family: "Battambang", system-ui;
+    text-decoration: none;
+    
+    margin-top: -10px;
+    margin-left: 90px;
+}
+.box2{
+    width: 800px;
+    height: 450px;
+    background-color: black;
+    float: left;
+    margin-left: 80px;
+}
+.box2 .found{
+    width: 390px;
+    height: 210px;
+    background-color: chartreuse;
+    float: left;
+    margin-top: 10px; 
+}
+
+.box2 img{
+    width: 390px;
+    height: 210px;
+    margin-top: -40px;
+}
+.box2 .found .gut{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(191, 0, 255);
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 85%, 75% 0);
+}
+
+.box2 .found1{
+    width: 390px;
+    height: 210px;
+    background-color: rgb(19, 101, 216);
+    float: left;
+    margin-top: 10px;
+}
+.box2 .found1 img{
+    width: 390px;
+    height: 210px;
+    margin-top: -40px;
+}
+.box2 .found1 .gut1{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(255, 30, 0);
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 85%, 75% 0);
+}
+.box2 .found2{
+    width: 390px;
+    height: 210px;
+    background-color: rgb(255, 0, 234);
+    float: left;
+    margin-top: 10px;
+    
+}
+.box2 .found2 img{
+    margin-top: -40px;
+}
+.box2 .found2 .gut2{
+    width: 170px;
+    height: 30px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(255, 136, 0);
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 85%, 75% 0);
+}
+
+
+.box2 .found3{
+    width: 390px;
+    height: 210px;
+    background-color: rgb(255, 0, 0);
+    float: left;
+    margin-top: 10px;
+   
+}
+.box2 .found3 .woon h3{
+        font-size: 20px;
+        margin-top: -70px;
+        color: crimson;
+       text-shadow: 2px 2px 3px black;
+        transition: 10s;
+       transform: translateY(50px);
+        font-family: 'Courier New', Courier, monospace;
+}
+.box2 .found2 img{
+    margin-top: -40px;
+}
+.box2 .found3 .gut3{
+    width: 170px;
+    height: 30px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(16, 12, 8);
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 85%, 75% 0);
+}
+
+
+.box3{
+    width: 300px;
+    height: 450px;
+    background-color: aqua;
+    margin-left: 810px;
+  
+}
+.box3 .new{
+    width: 300px;
+    height:210px ;
+    background-color: antiquewhite;
+    float: left;
+    margin-top: -210px;
+    
+}
+.box3 .new img{
+        width: 300px;
+        height: 210px;
+}
+.box3 .new1{
+    width: 300px;
+    height:210px ;
+    background-color: rgba(220, 128, 8, 0.804);
+    float: left;
+    margin-top: 10px;
+    
+}
+.box3 .new1 img{
+    
+    object-fit: cover;
+}
+

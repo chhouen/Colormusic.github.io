@@ -1,0 +1,269 @@
+.box{
+    width: 850px;
+   height: 800px;
+   background-color: midnightblue;
+    padding: 10px;
+    margin: auto;
+}
+.box .her ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+}
+.box .her  li{
+        float: left;
+}
+.box  .her ul li a{
+        display: block;
+        text-decoration: solid;
+        padding: 10px 40px;
+        font-size: 25px;
+        color: aliceblue;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+}
+.not{
+    width: 350px;
+   height: 70px;
+   /* background-color: rgb(234, 0, 255);*/
+    margin-top: -10px;
+    margin-left: 250px;
+    
+
+}
+.not .faa ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.not .faa  li{
+    float: left;
+}
+.not  .faa ul li a{
+    display: block;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.foot{
+   width:250px ;
+    height: 70px;
+    /* background-color: aqua;*/
+    float: left;
+    margin-left: 600px;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* this button is inspired from this -- s://www.newline.co/pricing */
+button {
+    --width: 150px;
+    --timing: 2s;
+    border: 0;
+    width: var(--width);
+    padding-block: 1em;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    background: rgb(64, 192, 87);
+    transition: all 0.2s;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-image: linear-gradient(
+      to right,
+      rgb(250, 82, 82),
+      rgb(250, 82, 82) 16.65%,
+      rgb(190, 75, 219) 16.65%,
+      rgb(190, 75, 219) 33.3%,
+      rgb(76, 110, 245) 33.3%,
+      rgb(76, 110, 245) 49.95%,
+      rgb(64, 192, 87) 49.95%,
+      rgb(64, 192, 87) 66.6%,
+      rgb(250, 176, 5) 66.6%,
+      rgb(250, 176, 5) 83.25%,
+      rgb(253, 126, 20) 83.25%,
+      rgb(253, 126, 20) 100%,
+      rgb(250, 82, 82) 100%
+    );
+    animation: var(--timing) linear dance6123 infinite;
+    transform: scale(1.1) translateY(-1px);
+  }
+  
+  @keyframes dance6123 {
+    to {
+      background-position: var(--width);
+    }
+  }
+  .box2{
+       
+        /*background-color: rgba(21, 14, 14, 0.808);*/
+        padding: 25px;
+        float: left;
+         
+  }
+  .box2 small{
+        font-size: 45px;
+        color: #0c14f4;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .box4 h3{
+        font-size: 30px;
+        color: azure;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .box5 p{
+        font-size: 20px;
+        color: #ecedf1;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .box3{
+        width: 400px;
+        height: 100px;
+        /*background-color: aliceblue;*/
+        float: left;
+        margin-left: 250px;
+        margin-top: 10px;
+  }
+  .hoot{
+    width: 870px;
+    height: 300px;
+    /*background-color: aqua;*/
+    float: left;
+    padding: 10px;
+    margin-left: -30px;
+  }
+  .dear{
+    width: 255px;
+    height: 235px;
+    background-color: aliceblue;
+    float: left;
+    margin-left: 20px;
+    padding: 11px;
+
+  }
+.don{
+    width: 255px;
+    height: 235px;
+    background-color: blanchedalmond;
+    float: left;
+    margin-left: 11px;
+    padding: 10px;
+}
+.moon{
+    width: 255px;
+    height: 235px;
+    background-color: bisque;
+    float: left;
+    margin-left: 11px;
+    padding: 10px;
+}
+.dear .sit{
+    width: 80px;
+    height: 80px;
+    background-color: bisque;
+    float: left;
+    margin-top: -160px;
+    color: chocolate;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
+.don .bot{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(235, 235, 235);
+    float: left;
+    margin-top: -145px;
+    color: rgba(19, 11, 4, 0.484);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.moon .sun{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(254, 255, 253);
+    float: left;
+    margin-top: -155px;
+    color: rgb(210, 30, 198);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dear .top{
+    width: 250px;
+    height: 65px;
+   /* background-color: aqua;*/
+    float: left;
+    margin-top:100px ;
+   
+}
+.dear .top h3{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+
+}
+.dear .top p{
+    font-size: 15px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.don .me{
+    width: 250px;
+    height: 60px;
+    /*background-color: aqua;*/
+    float: left;
+    margin-top: 90px;
+}
+.don .me h3{
+     font-size: 20px;
+     color: mediumblue;
+    
+}
+.don .me p{
+    font-size: 15px;
+    color: #0c14f4;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.moon .bon{
+        width: 250px;
+        height: 60px;
+       /* background-color: aqua;*/
+        float: left;
+        margin-top: 100px;
+
+}
+.moon .bon h3{
+            font-size: 15px;
+            color: #0c14f4;
+            font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.moon .bon p{
+    font-size: 15px;
+    color: #0c14f4;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+  
+ 

@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Battambang", system-ui;
+    
+}
+.moon{
+    width: 100%;
+    height: 95px;
+    background-color: black;
+}
+.moon .top{
+        width: 70%;
+        height: 70px;
+        /*background-color: rgb(47, 20, 220);*/
+        float: left;
+        margin:  auto 200px;
+}
+.moon .top img{
+    width: 60px;
+    height: 80px;
+    transform: translate(-140px );
+    margin-top: 5px;
+}
+.box{
+    width: 100%;
+    height: 50px;
+    background-color: crimson;
+    float: left;
+    
+}.box .box1{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+}
+.box .box1 ul p{
+                float: left;
+}
+.box .box1 ul p a{
+    display: block;
+    padding: 5px 10px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Battambang", system-ui;
+    margin-top: -25px;
+    margin-left: 30px;
+
+
+}
+
+.he{
+    width: 230px;
+    height: 190px;
+    background-color: antiquewhite;
+    float: left;
+    padding: 10px;
+    margin-top: -430px;
+    margin-left: 905px;
+   
+}
+.he .boot img{
+            height: 210px;
+            width: 250px;
+            object-fit: cover;
+            margin-top:-10px ;
+            margin-left: -10px;
+}
+
+.I{
+    width: 230px;
+    height: 190px;
+    background-color: antiquewhite;
+    float: left;
+    padding: 10px;
+    margin-top: -210px;
+    margin-left: 905px;
+}
+.I .and {
+    
+    object-fit: none;
+    margin-top:-10px ;
+    margin-left: -10px;
+}
+
+

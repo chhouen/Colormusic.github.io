@@ -1,0 +1,51 @@
+
+.homepage{
+    width: 550px;
+    height: 400px;
+    background-color: black;
+    margin: 20px auto;
+
+}
+.box1{
+    width: 550px;
+    height: 30px;
+    background-color: red;
+   margin-left: 36px;
+    float: left;
+    padding: left;
+}
+.homepage{
+        width: 200px;
+        height: 150px;
+        background-color: blueviolet;
+       margin-block: 200px;
+   
+}
+.footer{
+    width: 250px;
+    height: 150px;
+    background-color: chartreuse;
+    float: left;
+    margin: 20px auto;
+    margin-left: 90px;
+}
+.box{
+    width: 120px;
+    height: 90px;
+    background-color: burlywood;
+    float: left;
+    margin-left:-270px;
+    margin-top: 170px;
+    padding-left:10px; 
+   
+}
+
+.box5{
+    width: 100px;
+    height:150px ;
+    background-color: aqua;
+    float: left;
+    margin-left:270px;
+
+  
+}
