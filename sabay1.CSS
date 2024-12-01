@@ -1,0 +1,356 @@
+/*first page*/
+.firstpage{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+
+}
+.firstpage .box1{
+    width: 10%;
+    height: 60px;
+   /* background-color: aqua;*/
+    margin:auto ;
+    margin-top: 10px;
+    float: left;
+    padding: 10px;
+    margin-left: 200px; 
+}
+.firstpage .box1 img{
+    width: 85%;
+    height: 90px;
+    margin: auto 20px;
+    margin-top: -15px;
+}
+.firstpage .box2{
+    width: 63%;
+    height: 60px;
+    /*background-color: blue;*/
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.firstpage .box2 img{
+    width: 70%;
+    height: 80px;
+    margin-top: -15px;
+    
+}
+/*secondpage*/
+.secondpage{
+    width: 100%;
+    background-color: red;
+    height: 80px;
+    float: left;
+}
+.secondpage .Yin{
+    width: 80%;
+    /*background-color: bisque;*/
+    height: 70px;
+    float: left;
+    margin-left: 250px;
+}
+.secondpage ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.secondpage ul h2{
+    float: left;
+}
+.secondpage ul h2 a{
+    display: block;
+    padding: 5px 10px;
+    color: aliceblue;
+    
+    text-decoration: solid;
+    font-family: "Battambang", system-ui;
+    
+}
+/*threepage*/
+.threepage{
+    width: 50%;
+    height: 500px;
+    background-color: black;
+    float: left;
+    margin-top: 10px;
+    margin-left:260px;
+}
+/*background page*/
+.background {
+    width: 20%;
+    height: 500px;
+    background-color:orangered ;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.background .page1{
+    width: 100%;
+    height: 247px;
+    background-color: blue;
+    float: left;
+    margin-top: 3px;
+    
+}
+.background .page{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(251, 0, 255);
+    float: left;
+}
+.threepage .sin{
+    width: 50%;
+    height:250px ;
+    background-color: aqua;
+    float: left;
+}
+.threepage .sin1{
+    width: 50%;
+    height:250px ;
+    background-color: rgba(255, 64, 0, 0.87);
+    float: left;
+}.threepage .sin2{
+    width: 50%;
+    height:250px ;
+    background-color: rgb(225, 255, 0);
+    float: left;
+}.threepage .sin3{
+    width: 50%;
+    height:250px ;
+    background-color: rgb(0, 30, 255);
+    float: left;
+}
+/*fourpage*/
+.fourpage{
+    width: 71%;
+    height: 600px;
+    background-color: black;
+    float: left;
+    margin-top: 10px;
+    margin-left: 260px;
+}
+.fourpage .layla{
+    width: 29%;
+    height: 190px;
+    background-color: darkkhaki;
+    float: left;
+    margin-left: 13px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.fourpage .layla1{
+    width: 29%;
+    height: 190px;
+    background-color: darkkhaki;
+    float: left;
+    margin-left: 13px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.fourpage .layla2{
+    width: 29%;
+    height: 190px;
+    background-color: darkkhaki;
+    float: left;
+    margin-left: 13px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.fourpage .ling{
+    width: 72%;
+    height: 330px;
+    background-color: hotpink;
+    float: left;
+    margin-left: 13px;
+    margin-top:20px ;
+    padding: 10px;
+}
+.fourpage .ling .phone{
+    width: 23%;
+    height: 160px;
+    background-color: cornflowerblue;
+    float: left;
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.fourpage .ling .phone{
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 1px;
+}
+/*fivepage*/
+.fivepage{
+    width: 71%;
+    height: 500px;
+    background-color: rgba(50, 65, 55, 0.671);
+    float: left;
+    margin-top: 10px;
+    margin-left: 260px;
+}
+.fivepage .cat{
+    width: 30%;
+    height: 460px;
+    background-color: brown;
+    float: left;
+    margin-left:10px ;
+    margin-top: 10px;
+    padding: 10px;
+}
+.fivepage .raa{
+    width:12% ;
+    height: 210px;
+    background-color: chartreuse;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+   margin-right: 1px;
+    margin-bottom: 10px;
+}
+.fivepage .raa{
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+/*sixpage*/
+.sixpage{
+    width: 71%;
+    height: 500px;
+    background-color: deepskyblue;
+    float: left;
+    margin-top: 10px;
+    margin-left: 260px;
+}
+.sixpage .Mptheking{
+    width: 30%;
+    height: 460px;
+    background-color: mediumslateblue;
+    padding: 10px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sixpage .donut{
+    width: 12%;
+    height: 210px;
+    background-color: rgb(233, 7, 222);
+    float: left;
+    margin-top: 10px;
+    margin-right: 3px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.sixpage .donut{
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 14px;
+}
+/*sevenpage*/
+.sevenpage{
+    width: 71%;
+    height: 500px;
+    background-color: lightcoral;
+    float: left;
+    margin-top: 10px;
+    margin-left: 260px;
+}
+.sevenpage .chou{
+    width: 30%;
+    height: 460px;
+    background-color:gold;
+    float: left;
+    margin-left:10px ;
+    margin-top: 10px;
+    padding: 10px;
+}
+.sevenpage .boxis{
+    width: 12%;
+    height: 210px;
+    background-color:green;
+    float: left;
+    margin-top: 10px;
+    margin-right: 3px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.sevenpage .boxis{
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 14px;
+}
+/*eightpage*/
+.eightpage{
+    width: 71%;
+    height: 500px;
+    background-color: darkblue;
+    float: left;
+    margin-top: 10px;
+    margin-left: 260px;
+}
+.eightpage .fanny{
+    width: 30%;
+    height: 460px;
+    background-color:saddlebrown;
+    float: left;
+    margin-left:10px ;
+    margin-top: 10px;
+    padding: 10px;
+}
+.eightpage .ATM{
+    width: 12%;
+    height: 210px;
+    background-color:mediumaquamarine;
+    float: left;
+    margin-top: 10px;
+    margin-right: 3px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.eightpage .ATM{
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 14px;
+}
+/*ninepage*/
+.ninepage{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    float: left;
+    margin-top: 80px;
+}
+.ninepage .D7{
+    width: 28%;
+    height:360px ;
+    background-color: aqua;
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.ninepage .ridown{
+    width:36% ;
+    height: 360px;
+    background-color: cornflowerblue;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.ninepage .denzo{
+    width: 28%;
+    height: 360px;
+    background-color: coral;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    float: left;
+}
