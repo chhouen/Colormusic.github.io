@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap Page</title>
+  <!-- link css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- link pgn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- navber -->
+    <div class="row">
+      </ul>
+      <nav class="navbar navbar-expand-lg bg-warning  p-3">
+        <div class="container-fluid">
+          <a style="font-size: 38px; font-weight:bolder ;" class="navbar-brand" href="#">COFFEE SHOP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-3" style="font-size: 16px; text-transform:uppercase">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-3" style="font-size: 16px; text-transform:uppercase">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item mx-3" style="font-size: 16px; text-transform:uppercase">
+                <a class="nav-link" href="#">MENU</a>
+              </li>
+
+              <li class="nav-item mx-3" style="font-size: 16px; text-transform:uppercase">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+
+              <li class="nav-item mx-3" style="font-size: 16px; text-transform:uppercase">
+                <a class="nav-link" href="#">Sale</a>
+              </li>
+              <li class="nav-item mx-3" style="font-size: 16px; text-transform:uppercase">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown mx-3" style="font-size: 16px; text-transform:uppercase">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Page
+                </a>
+                <ul class="dropdown-menu mx-3 p-3">
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">shop</a></li>
+                  <li><a class="dropdown-item" href="#">cart</a></li>
+                  <li><a class="dropdown-item" href="#">checkout</a></li>
+                  <li><a class="dropdown-item" href="#">single post</a></li>
+                  <li><a class="dropdown-item" href="#">contact</a></li>
+
+
+                </ul>
+              </li>
+
+            </ul>
+            <!-- form -->
+            <div class="flex mx-2">
+              <i class="fa-solid fa-magnifying-glass mx-2" style="font-size: 20px;"></i>
+              <i class="fa-solid fa-user mx-2" style="font-size: 20px;"></i>
+              <i class="fa-solid fa-cart-shopping mx-2" style="font-size: 20px;"></i>
+            </div>
+            <!-- form end -->
+
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- size start -->
+
+    <div class="row">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner mt-2  ">
+          <div class="carousel-item active">
+
+            <img style="height: 580px; width: 100%; object-fit: cover; " src="../img/img2.webp" class="d-block w-100"
+              alt="...">
+            <div>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 490px; object-fit: cover;" src="../img/dooff.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img style="height:490px; object-fit: cover;" src="../img/coffee.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+
+
+    <!-- service -->
+    <div class="contener mt-5  mx-5">
+
+      <div class="row">
+        <div class="col-3">
+          <div class="text">
+            <div class="d-flex">
+              <i class="fa-solid fa-cart-shopping mx-2 mt-1" style="font-size: 25px; color:#f5c400 ;"></i>
+              <h5 style="font-size: 20px; ">Free Delivery</h5>
+            </div>
+            <p style="margin-left: 40px; color: #999c9c;  font-size: 18px;">Cousentetur adipi edipi lorem ipsum dolor
+              sit amet.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="text">
+            <div class="d-flex">
+              <i class="fa-solid fa-medal mx-2 mt-1" style="font-size: 25px; color:#f5c400 ;"></i>
+              <h5 style="font-size: 20px; ">QUALITY GUARANTEE</h5>
+            </div>
+            <p style="margin-left: 40px; color: #999c9c;  font-size: 18px;">Premium coffee beans, ethically sourced for
+              the best taste.</p>
+          </div>
+
+        </div>
+        <div class="col-3">
+          <div class="text">
+            <div class="d-flex">
+              <i class="fa-solid fa-tags mx-2 mt-1" style="font-size: 25px; color:#f5c400 ;"></i>
+              <h5 style="font-size: 20px; ">DAILY OFFERS</h5>
+            </div>
+            <p style="margin-left: 40px; color: #999c9c;  font-size: 18px;">Enjoy fresh deals and discounts on your
+              favorite coffee blends.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="text">
+            <div class="d-flex">
+              <i class="fa-solid fa-shield-virus mx-2 mt-1" style="font-size: 25px; color:#f5c400 ;"></i>
+              <h5 style="font-size: 20px; ">100% SECURE PAYMENT</h5>
+            </div>
+            <p style="margin-left: 40px; color: #999c9c;  font-size: 18px;">All transactions are encrypted and processed
+              securely..</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu  -->
+    <div class="container mt-5 mb-5 ">
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+          <h2 style="font-size: 35px;">MENU</h2>
+          <a style="font-size: 20px;" href="#">Go To Shop</a>
+        </div>
+      </div>
+      <!-- menu slide -->
+      <div class="row">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner" style="height: 550px;">
+            <div class="carousel-item active  flex">
+
+              <div class="row">
+                <div class="col-3">
+                  <div class="card">
+                    <img src="../img/imge2.png" alt="" class="">
+                    <div class="card-body ">
+                      <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+
+
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="card">
+                    <img src="../img/imges3.webp" alt="">
+                    <div class="card-body ">
+                      <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="card">
+                    <img src="../img/imges1.avif" alt="">
+                    <div class="card-body ">
+                      <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="card">
+                    <img src="../img/imges4.jpg" alt="">
+                    <div class="card-body ">
+                      <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+
+
+              </div>
+
+            </div>
+            <div class="carousel-item flex  ">
+              <div class="row">
+                <div class="col-3">
+                  <div class="card">
+                    <img src="../img/imge2.png" alt="style= ">
+                    <div class="card-body ">
+                      <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="card">
+                    <img src="../img/imges3.webp" alt="">
+                    <div class="card-body ">
+                      <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="card">
+                    <img src="../img/imges1.avif" alt="">
+                    <div class="card-body ">
+                      <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="card">
+                    <img src="../img/imges4.jpg" alt="">
+                    <div class="card-body ">
+                      <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- tipe -->
+
+      <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1"></button>
+        </div>
+
+        <!-- Carousel Items -->
+        <div class="carousel-inner mt-5 ">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row g-4">
+              <!-- Product Card 1 -->
+              <div class="col-lg-3 col-md-6">
+                <div class="card ">
+                  <img src="../img/page1.png" class="card-img-top" alt="Coffee Blend 1"
+                    style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+                    <div class="mb-3">
+                      <!-- Star Rating -->
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card ">
+                  <img src="../img/page2.jpg" class="card-img-top" alt="Coffee Blend 1"
+                    style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+                    <div class="mb-3">
+                      <!-- Star Rating -->
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card ">
+                  <img src="../img/page3.jfif" class="card-img-top" alt="Coffee Blend 1"
+                    style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+                    <div class="mb-3">
+                      <!-- Star Rating -->
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card ">
+                  <img src="../img/page4.jfif" class="card-img-top" alt="Coffee Blend 1"
+                    style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+                    <div class="mb-3">
+                      <!-- Star Rating -->
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Repeat similar card structure for other products -->
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row g-4">
+              <!-- Product Card 5 -->
+              <div class="col-lg-3 col-md-6">
+                <div class="card">
+                  <img src="../img/fooee2.avif" alt="Coffee Blend 1" style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+
+                    <div class="mb-3">
+                      <!-- Star Rating -->
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Repeat cards -->
+              <div class="col-lg-3 col-md-6">
+                <div class="card">
+                  <img src="../img/fooee3.avif" alt="Coffee Blend 1" style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+
+                    <div class="mb-3">
+                      <!-- Star Rating -->
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                <div class="card">
+                  <img src="../img/fooee4.avif" alt="Coffee Blend 1" style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+
+                    <div class="mb-3">
+                      <!-- Star Rating -->
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card">
+                  <img src="../img/fooee5.jpg" alt="Coffee Blend 1" style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+
+                    <div class="mb-3">
+                      <!-- Star Rating -->
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                      <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+
+                    </div>
+                    <h5 class="card-title text-dark mb-2 text-center">Colombian Dark Roast</h5>
+                    <p class="text-muted small text-center mb-3">Whole Bean Coffee</p>
+
+                    <!-- Price and CTA -->
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$9.99</h4>
+                      <button style="margin-top: -10px;" class="btn btn-warning btn-sm ">
+                        <i style="font-size:10 px ;" class="fas fa-cart-plus me-1"></i>Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end img -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- product start -->
+    <div class="container mt-5 mb-5 ">
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+          <h2 style="font-size: 35px;">Product</h2>
+          <a style="font-size: 20px;" href="#">Go To Shop</a>
+        </div>
+      </div>
+      <!-- product slide -->
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators mb-5 mt-5 ">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active flex">
+            <div class="row">
+              <div class="col-3">
+                <div class="card">
+                  <img src="../img/product.jfif" alt="" class="" style="height: 250px; object-fit: cover;">
+                  <div class="card-body ">
+                    <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <h5 style="color: #f5c400; margin-left: 50px;">Colombian Supremo</h5>
+                  <p style="color: #a6a6a6; margin-left: 50px;">Medium roast whole beans</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <h4 class="text-warning mb-0">$39.99</h4>
+                    <button class="btn btn-warning btn-sm">
+                      <i class="fas fa-cart-plus me-1"></i>Add
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                  <img src="../img/product1.jfif" alt="" class="" style="height: 250px; object-fit: cover;">
+                  <div class="card-body ">
+                    <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <h5 style="color: #f5c400; margin-left: 50px;">Colombian Supremo</h5>
+                  <p style="color: #a6a6a6; margin-left: 50px;">Medium roast whole beans</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <h4 class="text-warning mb-0">$59.99</h4>
+                    <button class="btn btn-warning btn-sm">
+                      <i class="fas fa-cart-plus me-1"></i>Add
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                  <img src="../img/product2.jpg" alt="" class="" style="height: 250px; object-fit: cover;">
+                  <div class="card-body ">
+                    <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <h5 style="color: #f5c400; margin-left: 50px;">Colombian Supremo</h5>
+                  <p style="color: #a6a6a6; margin-left: 50px;">Medium roast whole beans</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <h4 class="text-warning mb-0">$29.99</h4>
+                    <button class="btn btn-warning btn-sm">
+                      <i class="fas fa-cart-plus me-1"></i>Add
+                    </button>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                  <img src="../img/product3.webp" alt="" class="" style="height: 250px; object-fit: cover;">
+                  <div class="card-body ">
+                    <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <h5 style="color: #f5c400; margin-left: 50px;">Colombian Supremo</h5>
+                  <p style="color: #a6a6a6; margin-left: 50px;">Medium roast whole beans</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <h4 class="text-warning mb-0">$49.99</h4>
+                    <button class="btn btn-warning btn-sm">
+                      <i class="fas fa-cart-plus me-1"></i>Add
+                    </button>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row">
+              <div class="col-3">
+                <div class="card">
+                  <img src="../img/product5.webp" alt="" class="" style="height: 250px; object-fit: cover;">
+                  <div class="card-body ">
+                    <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <h5 style="color: #f5c400; margin-left: 50px;">Colombian Supremo</h5>
+                  <p style="color: #a6a6a6; margin-left: 50px;">Medium roast whole beans</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <h4 class="text-warning mb-0">$35.99</h4>
+                    <button class="btn btn-warning btn-sm">
+                      <i class="fas fa-cart-plus me-1"></i>Add
+                    </button>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                  <img src="../img/product6.webp" alt="" class="" style="height: 250px; object-fit: cover;">
+                  <div class="card-body ">
+                    <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <h5 style="color: #f5c400; margin-left: 50px;">Colombian Supremo</h5>
+                  <p style="color: #a6a6a6; margin-left: 50px;">Medium roast whole beans</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <h4 class="text-warning mb-0">$45.99</h4>
+                    <button class="btn btn-warning btn-sm">
+                      <i class="fas fa-cart-plus me-1"></i>Add
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                  <img src="../img/product7.webp" alt="" class="" style="height: 250px; object-fit: cover;">
+                  <div class="card-body ">
+                    <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <h5 style="color: #f5c400; margin-left: 50px;">Colombian Supremo</h5>
+                  <p style="color: #a6a6a6; margin-left: 50px;">Medium roast whole beans</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <h4 class="text-warning mb-0">$50.99</h4>
+                    <button class="btn btn-warning btn-sm">
+                      <i class="fas fa-cart-plus me-1"></i>Add
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                  <img src="../img/product8.jfif" alt="" class="" style="height: 250px; object-fit: cover;">
+                  <div class="card-body ">
+                    <i style="color: #f5c400; margin-left: 50px;" class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400; " class="fa-regular fa-star"></i>
+                    <i style="color: #f5c400  " class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <h5 style="color: #f5c400; margin-left: 50px;">Colombian Supremo</h5>
+                  <p style="color: #a6a6a6; margin-left: 50px;">Medium roast whole beans</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <h4 class="text-warning mb-0">$9.99</h4>
+                    <button class="btn btn-warning btn-sm">
+                      <i class="fas fa-cart-plus me-1"></i>Add
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+      <!-- product slide ti pe -->
+
+
+      <div id="productsCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#productsCarousel" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#productsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+
+        <div class="carousel-inner mt-5">
+
+          <div class="carousel-item active">
+            <div class="row g-4">
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                  <img src="../img/product-1.jfif" class="card-img-top" alt="Arabica Coffee Blend"
+                    style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+                    <div class="rating mb-2">
+                      <!-- Fixed star ratings with proper icons -->
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star-half-alt text-warning"></i>
+                    </div>
+                    <h5 class="card-title text-warning">Ethiopian Yirgacheffe</h5>
+                    <p class="card-text text-muted">Floral &amp; Bright Single Origin</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$11.99</h4>
+                      <button class="btn btn-outline-warning mt-2">Add+</button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                  <img src="../img/product-2.jpg" class="card-img-top" alt="Arabica Coffee Blend"
+                    style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+                    <div class="rating mb-2">
+                      <!-- Fixed star ratings with proper icons -->
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star-half-alt text-warning"></i>
+                    </div>
+                    <h5 class="card-title text-warning">Cold Brew Concentrate</h5>
+                    <p class="card-text text-muted">Smooth &amp; Bold Ready-to-Drink</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$15.99</h4>
+                      <button class="btn btn-outline-warning mt-2">Add+</button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                  <img src="../img/product-3.jpg" class="card-img-top" alt="Arabica Coffee Blend"
+                    style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+                    <div class="rating mb-2">
+                      <!-- Fixed star ratings with proper icons -->
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star-half-alt text-warning"></i>
+                    </div>
+                    <h5 class="card-title text-warning">Organic Decaf</h5>
+                    <p class="card-text text-muted">Chemical-Free Swiss Water Process</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$12.99</h4>
+                      <button class="btn btn-outline-warning mt-2">Add+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                  <img src="../img/product-4.jfif" class="card-img-top" alt="Arabica Coffee Blend"
+                    style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+                    <div class="rating mb-2">
+                      <!-- Fixed star ratings with proper icons -->
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star-half-alt text-warning"></i>
+                    </div>
+                    <h5 class="card-title text-warning">Italian Espresso</h5>
+                    <p class="card-text text-muted">Dark Roast Barista Blend</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h4 class="text-warning mb-0">$8.49</h4>
+                      <button class="btn btn-outline-warning mt-2">Subscribe</button>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+              <!-- Repeat other 3 cards with unique content -->
+              <!-- ... -->
+
+            </div>
+          </div>
+
+          <!-- Second Slide -->
+          <div class="carousel-item">
+            <div class="row g-4">
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                  <img src="../img/product-5.jfif" class="card-img-top" alt="Arabica Coffee Blend"
+                    style="height: 250px;  object-fit: cover;">
+                  <div class="card-body text-center">
+                    <div class="rating mb-2">
+                      <!-- Fixed star ratings with proper icons -->
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star-half-alt text-warning"></i>
+                    </div>
+                    <h5 class="card-title text-warning">Yirgacheffe Premium</h5>
+                    <p class="card-text text-muted">Single Origin Ethiopian Beans</p>
+                    <h4 class="text-warning">$7.99</h4>
+                    <button class="btn btn-outline-warning mt-2">Add to Cart</button>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                  <img src="../img/product-6.jpg" class="card-img-top" alt="Arabica Coffee Blend"
+                    style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+                    <div class="rating mb-2">
+                      <!-- Fixed star ratings with proper icons -->
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star-half-alt text-warning"></i>
+                    </div>
+                    <h5 class="card-title text-warning">Dark Colombian Roast</h5>
+                    <p class="card-text text-muted">Espresso Blend</p>
+                    <h4 class="text-warning">$6.49</h4>
+                    <button class="btn btn-outline-warning mt-2">Add to Cart</button>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                  <img src="../img/product-7.jfif" class="card-img-top" alt="Arabica Coffee Blend"
+                    style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+                    <div class="rating mb-2">
+                      <!-- Fixed star ratings with proper icons -->
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star-half-alt text-warning"></i>
+                    </div>
+                    <h5 class="card-title text-warning">Organic Decaf</h5>
+                    <p class="card-text text-muted">Chemical-Free Decaffeinated</p>
+                    <h4 class="text-warning">$8.99</h4>
+                    <button class="btn btn-outline-warning mt-2">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                  <img src="../img/product-8.jpg" class="card-img-top" alt="Arabica Coffee Blend"
+                    style="height: 250px; object-fit: cover;">
+                  <div class="card-body text-center">
+                    <div class="rating mb-2">
+                      <!-- Fixed star ratings with proper icons -->
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star-half-alt text-warning"></i>
+                    </div>
+                    <h5 class="card-title text-warning">Italian Espresso Pods</h5>
+                    <p class="card-text text-muted">Nespresso-Compatible Capsules</p>
+                    <h4 class="text-warning">$9.99</h4>
+                    <button class="btn btn-outline-warning mt-2">Subscribe</button>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- sale -->
+      <div class="container-fluid mt-5 ">
+        <div style="background-color: dimgrey; width: 108%; margin-left: -69px; " class="row">
+          <div class="col-6 d-flex justify-content-center align-items-center">
+            <p style="font-size: 30px; color: #f5c400;">10% Off <br>
+              <span style="font-size: 55px; color: #f5c400; text-transform: uppercase;"> New Year <br> Sale</span> <br>
+              <button class="btn btn-outline-warning mt-2">Shop Sale</button>
+            </p>
+
+          </div>
+          <div class="col-6">
+            <img style="width: 110%; object-fit: cover; height: 450px; " src="../img/sale.jfif" alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <!-- last post -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-between align-items-center mt-5">
+            <h2 style="font-size: 35px;">LATEST POST</h2>
+            <a style="font-size: 20px;" href="#">Go To Shop</a>
+          </div>
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="row">
+          <div class="col-4 mt-5 ">
+            <div class="card" style="width: 21rem; ;">
+              <img src="../img/last.avif" class="card-img-top" alt="...">
+              <div class="card-body  d-flex justify-content-center align-items-center">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning"></i>
+              </div>
+              <h5 style="text-align: center; font-size: 20px; color: #f5c400;" class="card-title fw-bold text-coffee">
+                Premium Arabica Blend</h5>
+              <p style="text-align: center; font-size: 20px; color: #f5c400;" class="card-text text-muted; ">Smooth
+                medium roast with notes of chocolate and caramel</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <p style="color: #f5c400;" class="h4  me-3">$12.99</p>
+
+                <button style="font-size: 13px;" class="btn btn-warning ">
+                  <i class="fas fa-cart-plus"></i> Add to Cart
+                </button>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 mt-5">
+            <div class="card" style="width: 21rem;">
+              <img src="../img/last1.avif" class="card-img-top" alt="...">
+              <div class="card-body d-flex justify-content-center align-items-center">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning"></i>
+              </div>
+              <h5 style="text-align: center; font-size: 20px; color: #f5c400;" class="card-title fw-bold text-coffee">
+                Premium Arabica Blend</h5>
+              <p style="text-align: center; font-size: 20px; color: #f5c400;" class="card-text text-muted; ">Smooth
+                medium roast with notes of chocolate and caramel</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <p style="color: #f5c400;" class="h4  me-3">$12.99</p>
+
+                <button style="font-size: 13px;" class="btn btn-warning ">
+                  <i class="fas fa-cart-plus"></i> Add to Cart
+                </button>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 mt-5">
+            <div class="card" style="width: 21rem;">
+              <img src="../img/last3.avif" class="card-img-top" alt="...">
+              <div class="card-body d-flex justify-content-center align-items-center">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning"></i>
+
+              </div>
+              <h5 style="text-align: center; font-size: 20px; color: #f5c400;" class="card-title fw-bold text-coffee">
+                Premium Arabica Blend</h5>
+              <p style="text-align: center; font-size: 20px; color: #f5c400;" class="card-text text-muted; ">Smooth
+                medium roast with notes of chocolate and caramel</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <p style="color: #f5c400;" class="h4  me-3">$12.99</p>
+
+                <button style="font-size: 13px;" class="btn btn-warning ">
+                  <i class="fas fa-cart-plus"></i> Add to Cart
+                </button>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- quaote start -->
+    <div class="container">
+      <div class="row">
+
+        <div id="carouselExample" class="carousel slide">
+          <div style="color: #a6a6a6; font-size: 50px;" class="d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-quote-right"></i>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div style="color: black; font-size: 20px; text-align: center; background-color:  #cccccc; "
+                class="d-flex justify-content-center align-items-center mt-3 ">
+                <p>
+
+                  Life begins after coffee. <br>Just brewed happiness in a cup!But first, coffee. Another day, another
+                  cup of coffee. <br>You can't buy happiness, but you can buy coffee, and that's pretty close. <br>
+                  Coffee is the best part of waking up.Don't speak to me until I've had my coffee. <br>.Life is short,
+                  drink good coffee.Keep calm and drink coffee. ... !.</p>
+              </div>
+              <div class="d-flex justify-content-center align-items-center mt-3">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning"></i>
+
+              </div>
+              <div class="d-flex justify-content-center align-items-center ">
+                <p>ASIPISICING ELIT</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div style="color: black; font-size: 20px; text-align: center; background-color:  #cccccc; "
+                class="d-flex justify-content-center align-items-center mt-3 ">
+                <p>
+                  "Life begins after coffee. <br>Just brewed happiness in a cup! But first, coffee.Another day, another
+                  cup of coffee. <br>You can't buy happiness, but you can buy coffee, and that's pretty close.
+                  <br>Coffee is the best part of waking up. <br>Don't speak to me until I've had my coffee.Life is
+                  short, drink good coffee.Keep calm and drink coffee....!".
+                </p>
+
+              </div>
+              <div class="d-flex justify-content-center align-items-center mt-3">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning"></i>
+
+              </div>
+              <div class="d-flex justify-content-center align-items-center ">
+                <p>ASIPISICING ELIT</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div style="color: black; font-size: 20px; text-align: center; background-color:  #cccccc; "
+                class="d-flex justify-content-center align-items-center mt-3 ">
+                <p>
+
+                  " Life begins after coffee. <br>Just brewed happiness in a cup!But first, coffee. Another day, another
+                  cup of coffee. <br>You can't buy happiness, but you can buy coffee, and that's pretty close. <br>
+                  Coffee is the best part of waking up.Don't speak to me until I've had my coffee. <br>.Life is short,
+                  drink good coffee.Keep calm and drink coffee. ... !."</p>
+              </div>
+              <div class="d-flex justify-content-center align-items-center mt-3">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning"></i>
+
+              </div>
+              <div class="d-flex justify-content-center align-items-center ">
+                <p>ASIPISICING ELIT</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+
+      <!-- submit form message -->
+      <div class="containe mb-5 mt-5">
+        <div class="row bg-dark">
+          <div class="col-6 px-5 py-5">
+            <span style="text-transform: uppercase; color: #f5c400; font-size: 30px;">Subscribe Us Now</span> <br>
+            <span style="font-size: 16px; color: beige;"> Get lastest new, update and deals disrectly mailed to your
+              inbox </span>
+          </div>
+          <div class="col-6  px-5 py-5">
+            <form action="">
+              <input style="padding: 10px 70px; outline: none;" type="text" placeholder="Enter Your Email Input heare">
+              <button class="btn btn-warning text-light fw-bold px-4 py-2 text-uppercase"
+                style="border: none; outline: none; transition: 0.3s ease-in-out;" aria-label="Subscribe">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- shop out insta -->
+      <div class="d-flex justify-content-center align-items-center">
+        <h2 style="color: #f5c400;">Shop Out Insta</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <img style="background-size: cover;" src="../img/insta6.webp" class="img-fluid " alt="Product Image">
+              <a href="#" class="btn btn-warning btn-block mt-3"> Buy New</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <img style="background-size: cover;" src="../img/insta5.avif" class="img-fluid " alt="Product Image">
+              <a href="#" class="btn btn-warning btn-block mt-3">Buy New</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <img style="background-size: cover;" src="../img/insta4.jpg" class="img-fluid " alt="Product Image">
+              <a href="#" class="btn btn-warning btn-block mt-3">Buy Now</a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body text-center ">
+              <img style="background-size: cover;" src="../img/fooee2.avif" class="img-fluid " alt="Product Image">
+              <a href="#" class="btn btn-warning btn-block mt-3">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- footer start -->
+      <div class="container mb-5 mt-5">
+        <div class="row">
+          <div class="col-3">
+            <span style="font-size: 30px; font-weight: bold; color: #f5c400;">COFFEE SHOP</span> <br>
+            <span style="font-size: 18px; color: #cccccc; ">Nisi, purus vitae, ultrices nunc. Sit suscripit
+              hendreit.Gravida massa volutpit aenea odio erat nullam fringilla.</span> <br>
+            <div style="color:#cccccc; font-size: 18px; ">
+              <i class="fa-brands fa-facebook px-2"></i>
+              <i class="fa-brands fa-facebook-messengerpx-2 "></i>
+              <i class="fa-brands fa-telegram px-2"></i>
+              <i class="fa-brands fa-youtube px-2"></i>
+              <i class="fa-brands fa-instagram px-2"></i>
+              <i class="fa-brands fa-twitter px-2"></i>
+              <i class="fa-brands fa-linkedin px-2"></i>
+            </div>
+          </div>
+          <div class="col-3">
+            <span
+              style="text-transform: uppercase; font-size: 21px; padding: 0px 30px; color: #f5c400; font-weight: bold">Quick
+              Links</span>
+            <ul class="mt-2">
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;"
+                  href="">Home</a>
+              </li>
+
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;"
+                  href="">About</a>
+              </li>
+
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;"
+                  href="">shop</a>
+              </li>
+
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;"
+                  href="">blogs</a>
+              </li>
+
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;"
+                  href="">coniaci</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <span
+              style="text-transform: uppercase; font-size: 21px; padding: 0px 30px; color: #f5c400; font-weight: bold">help
+              & infohelp</span>
+            <ul class="mt-2">
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;"
+                  href="">track yourorder</a>
+              </li>
+
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;"
+                  href="">returnspolicies</a>
+              </li>
+
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;"
+                  href="">shipping+delvery</a>
+              </li>
+
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;"
+                  href="">contacius</a>
+              </li>
+
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;"
+                  href="">faos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <span
+              style="text-transform: uppercase; font-size: 21px; padding: 0px 30px; color: #f5c400; font-weight: bold">contactus</span>
+            <ul class="mt-2">
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none;  color: #cccccc; font-size: 10px;" href="">Do
+                  you have any queries or suggestions?</a>
+              </li>
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none; color: #171616; font-size: 11px;"
+                  href="">yourinfo@gmail.com</a>
+              </li>
+
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none;  color: #cccccc; font-size: 10px;" href=""> If
+                  ýou need support? Just give us a call.</a>
+              </li>
+
+              <li style="list-style-type: none;">
+                <a style="list-style-type: none; text-decoration: none;  color: #262626; font-size: 15px;"
+                  href="">+885:96 312 3450</a>
+              </li>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- end footer -->
+      <div class="container-fluid mt-5 mb-5">
+        <hr>
+        <div class="container">
+          <div class="row">
+
+            <div class="col-3">
+              <span style="font-size: 17px; color: #cccccc;">We ship with</span>
+              <i style="font-size: 20px; color: #cccccc" class="fa-brands fa-internet-explorer"></i>
+            </div>
+            <div class="col-3">
+              <span style="font-size: 19px; color: #cccccc;">Payment options:</span>
+              <i style="font-size: 20px; color: #cccccc" class="fa-brands fa-instalod"></i>
+              <i style="font-size: 20px; color: #cccccc" class="fa-solid fa-credit-card"></i>
+
+            </div>
+            <div class="col-6 ">
+              <span style="font-size: 17px; color: #cccccc;">@Copyright2025Coffeeshop.Design by TemplatesJungle
+                Distribution by <span style="color: #171616;">ThemeWagon</span> .</span>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+</body>
+
+<!-- link bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
