@@ -248,7 +248,7 @@ html {
 
 /* /* about  */
 .about {
-  padding: 4rem 2rem;
+  padding: 3rem 1rem;
 }
 
 .about .heading {
@@ -264,9 +264,10 @@ html {
 
 .mission-section {
   color: cornflowerblue;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 50px;
-  padding: 20px;
+  padding: 10px;
+  margin-top: -12px;
   /* background-color: #f0f8ff;
     border-radius: 10px; */
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  */
@@ -324,8 +325,9 @@ html {
 }
 
 .products .vehicles-slide .box1 img {
-  width: 100%;
+  width: 60%;
   opacity: .5;
+  height: 30%;
   transform: scale(.8);
 
 }
